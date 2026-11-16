@@ -1,0 +1,12 @@
+{
+  "name": "atlas-agent-toolkit",
+  "version": "0.1.0",
+  "description": "Building blocks for multi-agent AI panels: memory retrieval, atomic job queue, token usage tracking. Zero runtime dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test \"test/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": { "@types/node": "^22.10.0", "typescript": "^5.7.0" }
+}
